@@ -1,0 +1,20 @@
+%% Toto je configurační soubor kde si lze nastavit LaTeX překladač aby se to nemuselo cpát přes org-mode
+\usepackage{xcolor}
+\usepackage{listingsutf8}  % Pro barvení syntaxe bloků zdrojových kódů
+\usepackage[czech]{babel}
+
+%Jak pojemonvat obsah
+\renewcommand*\contentsname{Obsah}
+%% Většinou převzato z: http://cosmosimple.blogspot.com/2014/01/colored-code-in-org-mode-export.html
+\definecolor{dkgreen}{rgb}{0,0.5,0}
+\definecolor{dkred}{rgb}{0.5,0,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{blue(pigment)}{rgb}{0, 0, 0}
+\lstset{
+  basicstyle=\ttfamily\bfseries\footnotesize\color{blue(pigment)},
+  morekeywords={virtualinvoke},
+  keywordstyle=\color{blue}\bf,
+  ndkeywordstyle=\color{red},
+  commentstyle=\color{dkred},
+  stringstyle=\color{dkgreen},
+}

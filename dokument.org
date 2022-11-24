@@ -2,7 +2,7 @@
 #+LaTeX_HEADER: \lstloadlanguages{VAŠE JAZYKY}
 
 #+title: Titulek práce
-#+author: Vaše jméno, příjmení
+#+author: Vaše jméno a příjmení
 
 * Číslovaný nadpis 1
 
@@ -14,5 +14,7 @@ Další text
 
 #+BEGIN_SRC clojure
   (defn foo
-  [something] (+ foo 1))
+    "Docs"
+    [something]
+    (+ foo 1 (inc something)))
 #+END_SRC
