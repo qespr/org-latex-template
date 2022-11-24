@@ -1,0 +1,18 @@
+#+LaTeX_HEADER: \input{config.tex}
+#+LaTeX_HEADER: \lstloadlanguages{VAŠE JAZYKY}
+
+#+title: Titulek práce
+#+author: Vaše jméno, příjmení
+
+* Číslovaný nadpis 1
+
+Text nadpisu 1
+
+** Číslovaný podnadpis 1.1
+
+Další text
+
+#+BEGIN_SRC clojure
+  (defn foo
+  [something] (+ foo 1))
+#+END_SRC
