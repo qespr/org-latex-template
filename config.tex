@@ -1,4 +1,5 @@
 %% Toto je configurační soubor kde si lze nastavit LaTeX překladač aby se to nemuselo cpát přes org-mode
+\makeatletter \@ifpackageloaded{geometry}{\geometry{margin=2cm}}{\usepackage[margin=2cm]{geometry}} \makeatother %menší okraje
 \usepackage{xcolor}
 \usepackage{listingsutf8}  % Pro barvení syntaxe bloků zdrojových kódů
 \usepackage[czech]{babel}
